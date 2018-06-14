@@ -16,6 +16,6 @@ PHP crontab 使用方法：
              
             log_dir = /root/log/demo.log (脚本输出日志文件，建议绝对路径)
              
-2.在php-cli窗口执行` php run.php`  后台运行  `php run.php  2>&1 &` 
+2.在php-cli窗口执行` php run.php`  后台运行  `php run.php  > /home/wwwroot/dinshiqi.3ddysj.com/log/test2.log 2>&1 & ` 
 
 3.常用计划任务周期示例:待补
