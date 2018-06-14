@@ -19,9 +19,10 @@ while(true){
 				echo '['.date('Y-m-d H:i:s').'] Task:['.$cronName."]->Is Runing Mem:".$memory."\r\n";
 				pclose( popen('cd '.$info['cd_dir'].'&'.$info['common'].$outputCommon,'r'));
 				//pclose($handle);
-			}else{
-				echo '['.date('Y-m-d H:i:s').']'."Waiting for a task\r\n";
 			}
+			// else{
+			// 	echo '['.date('Y-m-d H:i:s').']'."Waiting for a task\r\n";
+			// }
 		}
 	sleep(1);
 }
